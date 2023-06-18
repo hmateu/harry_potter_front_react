@@ -1,0 +1,25 @@
+.cardStyle {
+    width: 55vw;
+    border: .1em solid rgb(237, 226, 226);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardName{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: .2em .5em .2em .5em;
+}
+@media only screen and (min-width: 1200px) {
+    .cardStyle {
+        width: 15vw;
+        border: .1em solid rgb(237, 226, 226);
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 24em;
+    }
+}
